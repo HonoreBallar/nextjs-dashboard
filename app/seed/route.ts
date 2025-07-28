@@ -1,6 +1,6 @@
 import bcrypt from 'bcrypt';
 import postgres from 'postgres';
-import { invoices, customers, revenue, users } from '../lib/placeholder-data__old.ts';
+import { invoices, customers, revenue, users } from '../lib/placeholder-data.ts';
 
 const sql = postgres(process.env.POSTGRES_URL!, { ssl: 'require' });
 
